@@ -16,4 +16,4 @@ mongoose.connect("mongodb://nick_rose:todos@ds163689.mlab.com:63689/todos")
 mongoose.Promise = Promise;
 
 // Export the todo.js model file and call the model 'Todo'
-module.exports.Todo = require("./todo")
+module.exports.Todo = require("./todo");
